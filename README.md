@@ -2,20 +2,20 @@
 
 I have created a notes website that offers a range of features to make note-taking easy and efficient.
 
-Checkout demo Live : - **[JotPad Demo](sillyy-cupcake.netlify.app)**
+📍 Checkout demo Live : - **[JotPad Demo](https://jot-pad.netlify.app/)**
 
 ## Features of JotPad
 
 The website allows users to -
 
-- Create new notes
-- Update existing notes
-- Delete unwanted notes
-- Restore Deleted notes
-- Archive Notes
-- Unarchive Notes
-- Search functionality that allows users to search through their saved notes.
-- Search in Home Page, Deleted Notes and Archived Notes
+- Create new notes ➕
+- Update existing notes ✍
+- Delete unwanted notes 🗳
+- Restore Deleted notes 💚
+- Archive Notes 🕰
+- Unarchive Notes 📓
+- Search functionality that allows users to search through their saved notes. 🔎
+- Search in Home Page, Deleted Notes and Archived Notes 🕵️‍♀️
 
 
 ## Learnings 🧠
