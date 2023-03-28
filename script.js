@@ -34,6 +34,7 @@ existingNotes();
 // Making "+ Add" button on navbar working
 let navAddNote = document.getElementById("navAddNote");
 navAddNote.addEventListener('click', ()=> {
+    existingNotes();
     let title = document.getElementById("title");
     let desc = document.getElementById("desc");
     title.value = "";
@@ -48,6 +49,7 @@ addNote.addEventListener('click', ()=> {
     let notes = localStorage.getItem("notes");
     if (notes === null) { 
         allExistingNotes = [];
+        console.log("No Notes are present");
     } else {
         allExistingNotes = JSON.parse(notes); 
     }
@@ -93,6 +95,14 @@ function deleteNote(noteIndex) {
     localStorage.setItem("deletedNotes", JSON.stringify(deletedNotes));
     existingNotes();
 }
+//permanent delete
+function finalDelete(noteIndex) {
+    let deletedNotes = JSON.parse(localStorage.getItem("deletedNotes"));
+    deletedNotes.splice(noteIndex, 1)[0];
+
+    localStorage.setItem("deletedNotes", JSON.stringify(deletedNotes));
+    existingNotes();
+}
 
 // Making Delete Note on the Navbar Working 
 function deletedNotes() {
@@ -102,6 +112,7 @@ function deletedNotes() {
 
     if (deletedNotes === null) {
         allDeletedNotes = [];
+        console.log("No deleted Notes are present");
     } else {
         allDeletedNotes = JSON.parse(deletedNotes);
     }
@@ -115,7 +126,8 @@ function deletedNotes() {
                 <div class="card-body">
                     <h5 class="card-title">${note.title}</h5>
                     <p class="card-text">${note.desc}</p>
-                    <button class="btn btn-warning card_btns" onClick="undoDelete(${index})"><i class="fas fa-solid fa-undo undoDelete"></i></button>
+                    <button class="btn btn-warning card_btns" onClick="undoDelete(${index})"><i class="fas fa-solid fa-plus undoDelete"></i></button>
+                    <button class="btn btn-warning card_btns" onClick="finalDelete(${index})"><i class="fas fa-solid fa-minus"></i></button>
                 </div>
             </div>
         `;

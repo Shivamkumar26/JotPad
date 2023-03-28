@@ -10,6 +10,14 @@ body {
   font-weight: 600;
 }
 
+.navBtn:active,
+.navBtn:focus {
+  /* text-decoration: underline; */
+  background-color: #f0e6e6;
+  border: 2px solid #c3a7d2;
+  box-shadow: none; 
+}
+
 /* Main Add note form container */
 .addNoteContainer {
   border: 1px solid #ccc;
@@ -44,14 +52,14 @@ body {
 .notes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* styling cards and buttons */
 .card {
   width: 18rem;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 12px 10px;
   border-radius: 10px;
 }
 

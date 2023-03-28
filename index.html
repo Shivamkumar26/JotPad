@@ -19,9 +19,9 @@
     <title>JotPad</title>
   </head>
 
-  <body>
+  <body> 
     <!-- Navbar - title (JOTPAD), search and 4 buttons  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger px-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <a class="navbar-brand" href="#">
             JotPad 🧾
         </a>
@@ -42,15 +42,16 @@
             />
         </div>
         <div class="d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-light justify-content-center mx-2 my-2 backHome" onClick="existingNotes()">
+        <button type="button" class="btn btn-light justify-content-center mx-2 my-2 navBtn" onClick="existingNotes()">
             <i class="fas fa-solid fa-home home"></i>
             Home</button> 
-        <button type="button" class="btn btn-light justify-content-center mx-2 my-2" id="navArchivedNotes">
-            Archived Notes
-        </button>  
-        <button type="button" class="btn btn-light justify-content-center mx-2 my-2" id="navDeletedNotes">
-            Deleted Notes
-        </button>  
+        <button type="button" class="btn btn-light justify-content-center mx-2 my-2 navBtn" id="navArchivedNotes">
+          <i class="fas fa-solid fa-folder-plus"></i>  
+          Archive</button>  
+        <button type="button" class="btn btn-light justify-content-center mx-2 my-2 navBtn" id="navDeletedNotes">
+          <i class="fas fa-trash-list"></i> 
+          <i class="fas fa-solid fa-trash"></i>
+          Recycle </button>  
         <button type="button" class="btn btn-light justify-content-center mx-2 my-2" id="navAddNote">
             <i class="fas fa-plus"></i> Add
         </button>   
