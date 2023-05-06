@@ -35,25 +35,11 @@ The website allows users to -
 
 
 
-## Screenshots 📸 (To be updated)
+## Demo Video 📸 
 
-### Home Page
-![JotPad Homepage](https://user-images.githubusercontent.com/99862619/226272239-0a060402-2eb3-443b-b8a3-d9f9a2e3e8fa.png)
+[![Video thumbnail](https://img.youtube.com/vi/qCaE6t40P64/0.jpg
+)](https://youtu.be/qCaE6t40P64)
 
-### Add a new note
-![Add Note 1](https://user-images.githubusercontent.com/99862619/226272776-e02f3924-d375-4b7b-b955-30e19d7f8328.png)
-![Add Note 2](https://user-images.githubusercontent.com/99862619/226272798-28f1ea41-c0ce-45ec-9d46-d77a7e0967f6.png)
-
-### Update a note 
-![Updating snapshot 1](https://user-images.githubusercontent.com/99862619/226272947-1539e9cf-eab4-4781-bd6f-f54bdab4d670.png)
-![Updating snapshot 2](https://user-images.githubusercontent.com/99862619/226272954-86102be9-43e5-445d-a2d0-236ea67ef521.png)
-
-### Search a note
-![Search snapshot 1](https://user-images.githubusercontent.com/99862619/226273060-7e64312f-f049-424e-822e-62181e212172.png)
-![Search snapshot 2](https://user-images.githubusercontent.com/99862619/226273073-12dd339a-c58b-410c-8600-a11208ef6ca3.png)
-
-### Delete a note
-![JotPad Deleted a note](https://user-images.githubusercontent.com/99862619/226273182-f7baa4eb-4015-4d37-8e0d-940f26e5e145.png)
 
 ## 🚀 Connect with me 
 
